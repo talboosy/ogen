@@ -223,10 +223,10 @@ hr.light-100 {
 }
 
 @media(max-width: 576px) {
-    
+
     .navbar-brand img {
-    width:80% !important
-}
+        width:95% !important
+    }
     .carousel-caption {
         top:40%;
     }
