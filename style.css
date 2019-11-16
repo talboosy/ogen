@@ -53,10 +53,30 @@ html, body {
     border: 1px solid #1b90d3;
 }
 
+.btn-success {
+    background-color: rgb(255, 189, 89) !important;
+    border: 1px solid rgb(255, 189, 89) !important;
+    color: #3f3f3f  !important;
+    box-shadow: none !important;
+
+    
+}
+.btn-success:hover {
+    background-color:#3f3f3f !important ;
+    border: 1px solid rgb(255, 189, 89) !important;
+    color: rgb(255, 189, 89) !important;
+    box-shadow: none !important;
+
+
+}
+
+
 .btn-primary:hover {
     background-color: #2279c0;
     border: 1px solid #1677af;
 }
+
+.btn-success
 
 .jumbotron {
     padding: 1rem;
@@ -100,6 +120,8 @@ html, body {
 .fun {
     width: 100%;
     margin:0px;
+    color: white;
+    font-weight: 500;
 }
 
 .gif {
