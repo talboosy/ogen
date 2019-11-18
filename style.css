@@ -5,6 +5,7 @@ html, body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     color: #222;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -165,6 +166,14 @@ footer
     padding-top: 2rem;
 }
 
+.contact-form {
+    padding:2%;
+    background-color: #3f3f3f;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: rgb(255, 189, 89);
+}
+
 hr.light {
     border-top: 1px solid #d5d5d5;
     width: 75%;
@@ -230,7 +239,8 @@ hr.light-100 {
     .carousel-caption {
         top:40%;
     }
-    
+
+        
     .carousel-caption h1 {
         font-size: 250%
     }
